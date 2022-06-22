@@ -1,0 +1,365 @@
+.master-class{
+    display: flex;
+    flex-direction: column;
+    /* float: left; */
+}
+body{
+    background-color: rgb(249,249,249);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+.nav-bar{
+    display: inline-flex;
+    padding-left: 0px;
+}
+.menu{
+    padding-top: 8px;
+}
+.menu-img{
+    padding-left: 5px;
+    height: 28px;
+    width: 50px;
+    opacity: 0.4;
+}
+.youtube-logo{
+    padding-left: 0px;
+    padding-right: 216px;
+    width: 120px;
+    height: 40px;
+}
+.search-input{
+    width: 525px;
+    height: 35px;
+    border: 1px solid rgb(204,204,204);
+    border-radius: 2px;
+}
+::placeholder{
+    margin: 5px;
+    padding-left: 5px;
+    color: rgb(136,136,136);
+    font-size: 16px;
+    font-weight: 100;
+}
+.search-icon-img{
+    border: 1px solid rgb(211,211,211);
+    height: 18px;
+    width: 40px;
+    padding: 10px;
+}
+.search-mic{
+    padding-left: 10px;
+    padding-right: 150px;
+}
+.mic-img{
+    padding: 10px;
+    width: 18px;
+    border-radius: 50%;
+    background-color: rgb(249,249,249);
+}
+.nav-end{
+    display: inline-flex;
+}
+.add-video{
+    padding: 10px 30px 10px 20px;
+    width: 18px;
+}
+.menu2-img{
+    padding: 10px;
+    width: 18px;
+}
+.notification-img{
+    padding: 10px 30px 10px 20px;
+    width: 20px;
+}
+.account-img{
+    padding: 8px 15px 8px 8px;
+    width: 25px;
+}
+
+.part-3{
+    display: flex;
+    flex-direction: column;
+    width: 84%;
+}
+.nav-2{
+    list-style-type: none;
+    margin: 5px 5px 0px 5px;
+    /* background-color: blue; */
+    padding-bottom: 50px;
+}
+.nav-2 li{
+    cursor: pointer;
+    font:Roboto, arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    /* background-color: aqua; */
+    text-decoration: none solid rgb(3,3,3);
+
+    float:left;
+    text-align: center;
+    margin: 5px 10px 5px 10px;
+    padding: 8px 20px; 
+    border-radius: 20px;
+    border: 1px solid rgb(217,217,217);
+    background-color: rgb(242,242,242);
+}
+
+/* ---------Hover--------- */
+.nav-2 li:hover, .search-icon-img:hover{
+    background-color: rgb(220,220,220);
+}
+.menu-img, .youtube-logo, .search-icon-img,.mic-img,.add-video, .menu2-img, .notification-img, .account-img{
+    cursor: pointer;
+}
+
+.search-input{
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.topic-list{
+    border-top: 1px solid rgb(217,217,217);
+    border-bottom: 1px solid rgb(217,217,217);
+    background-color: rgb(255,255,255);
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    border-radius: 10px;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+    border-radius: 50px;
+    background: rgb(100,100,100);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(150,150,150);
+}
+
+
+
+/* Part 3 by pritom */
+
+*{
+    color:rgb(3, 3, 3);
+    font-family: Roboto,Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    /* font-weight: 300; */
+    text-transform:none;
+    text-decoration:none solid rgb(3, 3, 3);
+}
+.thumbnail{
+    width:360px;
+    height:100%;
+}
+.channel{
+    width:100%;
+    height:100%;
+    /* border: 9px hidden; */
+    border-radius: 100%;
+}
+.main-box{
+    float: left;
+    width: 25%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    padding: 4px 4px 4px 4px;
+}
+.first-row{
+    display: flex;
+    flex-direction: row; 
+}
+.thumbnail-video{
+    position: relative;
+    text-align: center;
+    /* color: white; */
+    display: flex;
+    flex-direction: row;
+}
+/* .video-timer{
+    position: relative;
+    bottom: 15%;
+    left: 88%;
+    color: white;
+    background-color: rgb(3,3,3);
+} */
+
+
+.video-info{
+    display: flex;
+    flex-direction: row;
+    /* padding: 4px 4px 4px 4px; */
+}
+.video-name{
+    padding:0px 0px 22px 0px;
+    overflow: hidden;
+}
+.menu-dots{
+    padding: 16px 0 0 0 ;
+}
+.channel-logo{
+    /* width: 14%; */
+    margin-top: 12px;
+    margin-right: 12px;
+    height: 36px;
+    width: 36px;
+    /* padding-top: 20px; */
+}
+h6{
+    margin:0 0 0 0;
+}
+.addn-data{
+    width: 75%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    margin: 14px 0 1px 0;
+    /* padding: 0 0 0 0; */
+    width: 95%;
+    height: 100%;
+    overflow: hidden;
+    font-weight: 550;
+    text-align:start;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.ch-name{
+    letter-spacing: -1px;
+    word-spacing:0px;
+    line-height: 1.8rem;
+    font-weight:400;
+    font-size:1.2rem;
+    text-decoration-thickness:5px;
+    color:rgb(96,96,96);
+}
+
+.video-name{
+    height: 23%;
+}
+.meta{
+    display: flex;
+    flex-direction: row;
+    font-weight: 100;
+    color:rgb(96,96,96);
+}
+a{
+    text-decoration: none;
+}
+.dropbtn {
+    border: none;
+    cursor: pointer;
+    /* display: none; */
+    /* position: -50px; */
+    opacity: 0;
+}
+.dropbtn:hover, .dropbtn:focus {
+    opacity: 1;
+    background-color: rgb(249,249,249);
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    /* color: black; */
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+
+
+
+/* arnab's part */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+/* *{
+    font-family: 'Poppins', sans-serif;
+    margin: 2px;
+    padding: 2px;
+    box-sizing: center;
+} */
+
+/* :root{
+    --body-color:lightgrey;
+    --sidebar-color:white;
+    --primary-color:# ;
+    --primary-color-light:# ;
+    --toggle-color:# ;
+    --text-color:# ;
+}
+ */
+body{
+    height: 100vh;
+    background: var(--body-color);
+}
+.bx-ic{
+    padding:3px 3px 3px 3px;
+}
+.home ,.explore, .shorts, .subscriptions, .library, .history, .your-videos, .watch-later, .liked-videos, .more, .logo, .yt-premium, .films, .gaming, .live, .f-b, .learning, .sport{
+    /* margin:10px 10px 10px 10px; */
+    display:flex;
+    flex-direction: row;
+    width:200px;
+    padding: 0 0 0 0;
+    overflow: hidden;
+    /* width:100px; */
+    cursor: pointer;
+} 
+
+.text{
+    font-size: 25px;
+    font-weight: 900;
+}
+.library{
+    border-top: 1px solid;
+    margin: 12px 15px 0 3px;
+    padding-top: 12px;
+}
+
+.more{
+    border-top: 1px solid;
+    margin: 12px 15px 0 3px;
+    padding-top: 12px;
+}
+
+
+.bx-ic{
+    padding: 2px;
+    width:30px;
+    height: 30px;
+}
+.sidebar{
+    margin: 2px;
+    padding: 2px;
+    box-sizing: center;
+    width: 15%;
+}
+.first{
+    margin: 7px 0 0 0;
+}
+
+
+.body-class{
+    display: flex;
+    flex-direction: row;
+}
